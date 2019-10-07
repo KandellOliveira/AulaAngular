@@ -18,9 +18,9 @@ class Cachorro extends Animal{
     }
 }
 
-const cachorro = new Cachorro("Bob");
+/* const cachorro = new Cachorro("Bob");
 const nomeCachorro = cachorro.recuperNome();
-console.log(nomeCachorro);
+console.log(nomeCachorro); */
 
 /* const nomeAnimal = "Cachorro";
 let animal = new Animal(nomeAnimal);
