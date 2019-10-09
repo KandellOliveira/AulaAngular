@@ -25,3 +25,7 @@ console.log(generico1.recuperarTipo());
 let generico2 = new Generics<number>(1);
 console.log(generico2.recuperarNome());
 console.log(generico2.recuperarTipo());
+
+let generico3 = new Generics<string>('Hello World');
+console.log(generico3.recuperarNome());
+console.log(generico3.recuperarTipo());
